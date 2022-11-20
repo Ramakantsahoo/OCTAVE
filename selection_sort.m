@@ -1,8 +1,8 @@
-# sort elements of an array.
+# sort elements of an array.(Selection sort)
 arr=input("Enter the elements: ");
 arr
 len=length(arr);
-for i=1:len
+for i=1:(len-1)
   for j=i+1:len
     if(arr(i)>arr(j))
       temp=arr(i);
